@@ -6,6 +6,8 @@ Clone this repository to your local machine.
 Install the required Python packages:
 ```sh 
 pip install nltk
+pip install numpy
+pip install torch
 ```
 Run the chatbot:
 ```sh
