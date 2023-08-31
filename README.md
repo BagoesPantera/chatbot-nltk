@@ -11,7 +11,7 @@ pip install torch
 ```
 Run the chatbot:
 ```sh
-python chatbot.py
+python chat.py
 ```
 ### How to Use
 The chatbot can be used to have a conversation with a human user. To start a conversation, simply type a message and press Enter. The chatbot will then respond to your message.
