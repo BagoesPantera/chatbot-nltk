@@ -1,24 +1,52 @@
 {
   "intents": [
     {
-      "tag": "Perkenalan",
-      "patterns": ["Hai, saya ingin tahu tentang warung kopi Anda."],
-      "responses": ["Halo, terima kasih telah menghubungi kami. Kami adalah warung kopi yang menyediakan berbagai macam makanan dan minuman."]
+      "tag": "greeting",
+      "patterns": [
+        "Hai, aku ingin tahu tentang warung kopi kamu.",
+        "Hi",
+        "Hey",
+        "Apa kabar?",
+        "Halo"
+      ],
+      "responses": [
+        "Halo, terima kasih telah menghubungi kami. Kami adalah warung kopi yang menyediakan berbagai macam makanan dan minuman."
+      ]
     },
     {
-      "tag": "Pertanyaan umum",
-      "patterns": ["Apa menu favorit Anda?", "Apakah ada menu vegan?"],
-      "responses": ["Menu favorit saya adalah kopi susu. Rasanya enak dan menyegarkan.", "Ya, kami memiliki beberapa menu vegan. Anda dapat melihat menu kami di situs web kami."]
+      "tag": "goodbye",
+      "patterns": [
+        "Sampai jumpa",
+        "Terima kasih",
+        "Makasi",
+        "tq",
+        "thx"
+      ],
+      "responses": [
+        "Terima kasih kembali, senang bisa membantu ^^"
+      ]
     },
     {
-      "tag": "Pemesanan",
-      "patterns": ["Saya ingin memesan satu kopi susu dan satu roti bakar."],
-      "responses": ["Baiklah, total pesanan Anda adalah Rp20.000. Mohon menunggu sebentar, pesanan Anda akan segera disiapkan."]
+      "tag": "faq",
+      "patterns": [
+        "Apa menu favorit kamu?",
+        "Apakah ada menu vegan?"
+      ],
+      "responses": [
+        "Menu favorit saya adalah kopi susu. Rasanya enak dan menyegarkan.",
+        "Ya, kami memiliki beberapa menu vegan. Anda dapat melihat menu kami di situs web kami."
+      ]
     },
     {
-      "tag": "Keluhan",
-      "patterns": ["Kopi saya terlalu panas."],
-      "responses": ["Maaf atas ketidaknyamanan ini. Saya akan segera mengganti kopi Anda dengan yang baru."]
+      "tag": "item",
+      "patterns": [
+        "Ada apa aja?",
+        "Disini jual apa?",
+        "Apa yang kamu jual?"
+      ],
+      "responses": [
+        "Kami jual kopi."
+      ]
     }
   ]
 }

@@ -24,10 +24,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Rikafein"
-print("Type 'exit' to exit")
+print("Ketik 'keluar' untuk keluar.")
 while True:
-    sentence = input('awd: ')
-    if sentence == 'exit':
+    sentence = input('Kamu: ')
+    if sentence == 'keluar':
         break
 
     sentence = tokenize(sentence)
