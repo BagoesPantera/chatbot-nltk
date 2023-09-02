@@ -11,6 +11,7 @@ pip install torch
 ```
 Run the chatbot:
 ```sh
+python train.py
 python chat.py
 ```
 ### How to Use
